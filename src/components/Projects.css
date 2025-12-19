@@ -1,0 +1,22 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.project-card {
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  color: #0a66c2;
+  margin-bottom: 10px;
+}
+
+.project-card span {
+  font-size: 14px;
+  color: #555;
+}
+

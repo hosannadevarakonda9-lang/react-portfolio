@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section {
+  padding: 60px 10%;
+}
+
+.title {
+  font-size: 32px;
+  color: #0a66c2;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 5%;
+  }
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.section {
+  border-bottom: 1px solid #eee;
+}

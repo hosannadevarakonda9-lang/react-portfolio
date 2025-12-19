@@ -1,0 +1,27 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  padding: 25px;
+  background: #f0f6ff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.skill-card h3 {
+  color: #0a66c2;
+  margin-bottom: 10px;
+}
+
+
+.skill-card {
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
